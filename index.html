@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+	 <link rel="stylesheet" href="styles.css">
+	<title>Frontend Mentor | Dictionary web app</title>
+</head>
+<body>
+  <header class="header">
+    <img src="./assets/logo.svg" alt="Logo" />
+	<div class="settings">
+	<div class="select-wrapper">
+  <button class="dropdown-button">Serif</button>
+  <div class="dropdown-content">
+    <div class="dropdown-option" data-font="serif" style="font-family: 'Times New Roman', serif;">Serif</div>
+    <div class="dropdown-option" data-font="sans-serif" style="font-family: 'Arial', sans-serif;">Sans-serif</div>
+    <div class="dropdown-option" data-font="monospace" style="font-family: 'Courier New', monospace;">Monospace</div>
+  </div>
+  <img class="select-arrow" src="./assets/icon-arrow-down.svg" alt="Custom arrow" />
+</div>
+	   <div class="dark-mode-toggle">
+        <label class="switch">
+          <input type="checkbox" id="dark-mode-checkbox">
+          <span class="slider"></span>
+        </label>
+		</div>
+		<div class="moon-container">
+			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M1 10.449a10.544 10.544 0 0 0 19.993 4.686C11.544 15.135 6.858 10.448 6.858 1A10.545 10.545 0 0 0 1 10.449Z"/></svg>
+		</div>
+      </div>
+	</div>
+  </header>
+  <div class="search-wrapper">
+    <input type="text" id="search-input" placeholder="Search for a word...">
+    <img class="search-icon" src="./assets/icon-search.svg" alt="Search icon">
+</div>
+ <div class="word-results">
+
+</div> 
+	<script src="script.js"></script>
+</body>
+</html>
